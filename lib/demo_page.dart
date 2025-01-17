@@ -10,6 +10,8 @@ class DemoPage extends StatefulWidget {
 class _DemoPageState extends State<DemoPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return AppBar(
+      title: Text("GitHub"),
+    );
   }
 }
